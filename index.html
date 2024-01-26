@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="000033">
+    <h1>Список дел</h1>
+    <hr>
+    <input type="text" id="nameInput">
+    <button id="myButton">ДОБАВИТЬ</button>
+    <ul id="list">
+        <!-- <li class="item">Андрей<button>Удалить</button></li>
+        <li class="item">Олег<button>Удалить</button></li> -->
+    </ul>
+    <hr>
+    <script src="script.js"></script>
+<style>
+    #nameInput {
+        margin-left: 700px;
+        margin-top: 100px;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium';
+    }
+
+    #myButton {
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium';
+        background-color: #40ce7b;
+        color: aliceblue;
+        border-color: gray; 
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+    }
+
+    #list {
+        list-style-type: none;
+        border: gray;
+        font-family: 'Franklin Gothic Medium';
+        margin-left: 700px;
+        margin-right: 545px;
+        font-size: 30px;
+        padding: 7px;
+        border-style: dashed;
+    }
+
+    h1 {
+        font-family: 'Franklin Gothic Medium';
+        margin-top: 50px;
+        font-size: 50px;
+        margin-left: 800px;
+        color: #eee;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    } 
+    
+    ul li {
+        cursor: pointer;
+        position: relative;
+        padding: 12px 8px 12px 40px;
+        background: #eee;
+        font-size: 18px;
+        transition: 0.2s;
+    }
+
+    ul li:hover {
+        background: #ddd;
+    }
+
+    ul li.checked {
+        background: #888;
+        color: #fff;
+        text-decoration: line-through;
+    }
+
+    hr {
+        margin-top: 100px;
+    }
+
+    .DELETE {
+        background-color: rgb(240, 66, 66);
+        font-size: 30px;
+        margin-left: 270px;
+        color: white;
+    }
+
+    
+
+
+</style>
+
+</body>
+
+</html>
